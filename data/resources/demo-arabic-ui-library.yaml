@@ -1,0 +1,76 @@
+id: demo-arabic-ui-library
+name: RTL Kit
+demo: true
+data_quality: synthetic
+resource_type: library
+roles:
+- developer_facing
+- infrastructure
+audience:
+- developer
+- designer
+- open_source_contributor
+domains:
+- arabic_language
+- accessibility
+platforms:
+- web
+url: https://example.invalid/rtl-kit
+repository: https://example.invalid/rtl-kit/repo
+technologies:
+- typescript
+- react
+languages:
+- en
+pricing:
+  model: free
+access:
+  account_required: false
+  self_hostable: true
+openness:
+- open_source
+- individual_project
+license: MIT
+review_level: deep_review
+status:
+  value: low_activity
+  confidence: medium
+summary:
+  en: Synthetic React toolkit for Arabic/RTL interfaces, included to test technical evaluation and low-activity
+    states.
+capabilities:
+- rtl
+- arabic_ui
+assessment:
+  strengths:
+  - Focused RTL primitives
+  - Clear component examples
+  weaknesses:
+  - Low recent activity
+  - React-specific
+  best_for:
+  - Teams building Arabic-first web products
+  limitations:
+  - Not framework-agnostic
+recommendation:
+  status: recommended_with_caveats
+  confidence: medium
+  note: Useful patterns; maintenance level should be checked before adoption.
+related_gaps:
+- id: demo-arabic-developer-tooling-gap
+  relation: partially_addresses
+evidence:
+- type: repository
+  url: https://example.invalid/rtl-kit/repo
+  supports:
+  - license
+  - activity
+  - technology
+- type: documentation
+  url: https://example.invalid/rtl-kit/docs
+  supports:
+  - features
+discovered_via:
+- demo-arabic-open-source-list
+added_at: '2026-10-29'
+last_reviewed_at: '2026-10-29'

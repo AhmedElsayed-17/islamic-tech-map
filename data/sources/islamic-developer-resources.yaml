@@ -1,0 +1,32 @@
+id: mmmoussa-islamic-developer-resources
+name: Islamic Developer Resources
+url: https://github.com/mmmoussa/Islamic-Developer-Resources
+source_type: seed_list
+reviewed_at: 2026-10-29
+intake_policy: candidate_only
+notes:
+- Useful as a discovery source, not as authoritative metadata.
+- Each candidate must be re-checked against a primary source.
+- Dead links should be retained in an intake log rather than imported as live resources.
+rejected_or_deferred_candidates:
+- name: Global Quran
+  original_url: https://docs.globalquran.com/Main_Page
+  disposition: deferred
+  reason: Original link returned 404 during review; requires rediscovery before inclusion.
+- name: RESTful Masjid API / UmmahNet
+  original_url: https://ummahnet.com/developers.php?page=developers
+  disposition: deferred
+  reason: Source could not be reliably fetched during review; requires manual verification.
+type: aggregated_repository
+purpose: discovery_source
+processing:
+  status: partially_processed
+  first_checked_at: '2026-10-29'
+  last_checked_at: '2026-10-29'
+  content_extracted: true
+  discovered_items: null
+  accepted_items: 7
+  deferred_items: null
+  dead_items: null
+  duplicate_items: null
+  note: Only a starter subset has been independently verified and entered so far.

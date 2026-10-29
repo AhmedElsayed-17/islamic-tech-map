@@ -1,0 +1,6 @@
+source_id: dummy-aggregator
+items:
+  - name: Example Candidate
+    original_url: https://example.invalid/item
+    disposition: needs_review
+    reason: Candidate discovered but not yet verified from a primary source.

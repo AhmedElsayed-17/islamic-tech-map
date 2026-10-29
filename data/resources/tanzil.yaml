@@ -1,0 +1,36 @@
+id: tanzil-quran-text
+name: Tanzil Quran Text
+resource_type: web_service
+roles:
+- developer_facing
+- data_access
+- infrastructure
+audience:
+- developer
+domains:
+- quran
+platforms:
+- web
+url: https://tanzil.net/download/
+open_source: unknown
+access_model:
+- free
+review_level: indexed
+status:
+  value: active
+  confidence: high
+summary: Quran text downloads in multiple formats, with metadata and translations
+  available from Tanzil.
+notes:
+- Usage terms require attribution to Tanzil and prohibit changing the Quran text.
+evidence:
+- type: official
+  url: https://tanzil.net/download/
+  supports:
+  - availability
+  - formats
+  - terms
+added_at: 2026-10-29
+last_reviewed_at: 2026-10-29
+discovered_via:
+- mmmoussa-islamic-developer-resources

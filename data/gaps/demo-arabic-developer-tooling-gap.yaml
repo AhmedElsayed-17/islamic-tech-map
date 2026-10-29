@@ -1,0 +1,40 @@
+id: demo-arabic-developer-tooling-gap
+title: Arabic developer tooling needs broader maintenance and framework coverage
+demo: true
+data_quality: synthetic
+status: observed
+determination: editorial
+confidence: medium
+domains:
+- arabic_language
+- open_source
+audience:
+- developer
+- designer
+affected_platforms:
+- web
+- server
+problem: Useful Arabic/RTL tools may exist but can be narrow, framework-specific or lightly maintained.
+existing_solutions:
+- demo-arabic-ui-library
+- tashaphyne
+- mishkal
+what_is_missing:
+- More actively maintained UI tooling
+- Framework-agnostic guidance
+- Better documentation and examples
+impact: medium
+difficulty: medium
+volunteer_fit: high
+summary: Synthetic gap testing how real and demo resources can coexist in one relationship model.
+reasoning:
+- Quality and maintenance can be gaps even when resources already exist.
+evidence:
+- type: other
+  url: https://example.invalid/gap-evidence/arabic-tooling
+related_resources:
+- demo-arabic-ui-library
+- tashaphyne
+- mishkal
+added_at: '2026-10-29'
+last_reviewed_at: '2026-10-29'

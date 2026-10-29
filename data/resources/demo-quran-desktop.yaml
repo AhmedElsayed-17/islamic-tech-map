@@ -1,0 +1,80 @@
+id: demo-quran-desktop
+name: Nur Desktop
+demo: true
+data_quality: synthetic
+resource_type: desktop_app
+roles:
+- consumer_facing
+audience:
+- general_user
+- arabic_speaking_user
+domains:
+- quran
+- tafsir
+- memorization
+platforms:
+- windows
+- macos
+- linux
+url: https://example.invalid/nur-desktop
+languages:
+- en
+- ar
+pricing:
+  model: free
+access:
+  account_required: false
+  self_hostable: false
+openness:
+- closed_source
+review_level: deep_review
+status:
+  value: active
+  confidence: high
+summary:
+  en: Synthetic cross-platform Quran desktop app used to test a mature consumer-resource page.
+  ar: تطبيق قرآن مكتبي تجريبي لاختبار صفحة مورد استهلاكي كاملة.
+capabilities:
+- quran_text
+- quran_audio
+- tafsir
+- translations
+- memorization
+- offline_data
+assessment:
+  strengths:
+  - Cross-platform desktop coverage
+  - Strong offline workflow
+  - Arabic and English UI
+  weaknesses:
+  - Closed source
+  - No public integration API
+  best_for:
+  - Users looking for a focused desktop Quran experience
+  limitations:
+  - No developer integration surface
+recommendation:
+  status: recommended_with_caveats
+  confidence: medium
+  note: Demo recommendation showing how editorial guidance appears.
+related_gaps:
+- id: demo-desktop-quran-gap
+  relation: partially_addresses
+- id: demo-islamic-platform-integration-gap
+  relation: demonstrates
+evidence:
+- type: official
+  url: https://example.invalid/nur-desktop
+  supports:
+  - identity
+  - platforms
+  - features
+- type: direct_testing
+  url: https://example.invalid/test-notes
+  supports:
+  - usability
+  - offline_support
+discovered_via:
+- demo-islamic-tech-index
+added_at: '2026-10-29'
+last_reviewed_at: '2026-10-29'

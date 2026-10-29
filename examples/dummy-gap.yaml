@@ -1,0 +1,12 @@
+id: dummy-desktop-gap
+name: "Dummy: underrepresented desktop tooling"
+status: candidate
+determination: editorial
+confidence: low
+domains: [quran]
+affected_platforms: [windows, macos, linux]
+audience: [general_user, developer]
+summary: Placeholder only. Replace with an evidence-backed gap.
+evidence: []
+added_at: 2026-10-29
+last_reviewed_at: 2026-10-29

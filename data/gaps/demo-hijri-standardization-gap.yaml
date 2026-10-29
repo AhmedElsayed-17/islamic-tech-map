@@ -1,0 +1,35 @@
+id: demo-hijri-standardization-gap
+title: Hijri calendar implementations need clearer interoperability and assumptions
+demo: true
+data_quality: synthetic
+status: monitoring
+determination: editorial
+confidence: low
+domains:
+- hijri_calendar
+audience:
+- developer
+- researcher
+affected_platforms:
+- cross_platform
+problem: Different calculation and observation assumptions can make calendar implementations difficult to compare
+  or integrate.
+existing_solutions:
+- demo-hijri-sdk
+what_is_missing:
+- Clear method metadata
+- Interoperability conventions
+- Cross-implementation test cases
+impact: medium
+difficulty: high
+volunteer_fit: medium
+summary: Synthetic standards-oriented gap used to test future-facing analysis.
+reasoning:
+- The gap is not necessarily lack of code; it can be lack of shared conventions.
+evidence:
+- type: other
+  url: https://example.invalid/gap-evidence/hijri
+related_resources:
+- demo-hijri-sdk
+added_at: '2026-10-29'
+last_reviewed_at: '2026-10-29'

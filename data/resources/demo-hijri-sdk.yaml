@@ -1,0 +1,66 @@
+id: demo-hijri-sdk
+name: Hilal SDK
+demo: true
+data_quality: synthetic
+resource_type: sdk
+roles:
+- developer_facing
+- infrastructure
+audience:
+- developer
+domains:
+- hijri_calendar
+platforms:
+- cross_platform
+url: https://example.invalid/hilal-sdk
+repository: https://example.invalid/hilal-sdk/repo
+technologies:
+- kotlin
+- swift
+- typescript
+languages:
+- en
+pricing:
+  model: free
+access:
+  account_required: false
+  self_hostable: true
+openness:
+- open_source
+license: MIT
+review_level: reviewed
+status:
+  value: experimental
+  confidence: high
+summary:
+  en: Synthetic multi-platform Hijri-calendar SDK for testing standards-related gap relationships.
+capabilities:
+- hijri_calendar
+- sdk
+assessment:
+  strengths:
+  - Multiple platform bindings
+  weaknesses:
+  - Experimental API
+  - Calendar-method assumptions need stronger documentation
+  best_for:
+  - Prototypes and comparative testing
+  limitations:
+  - Not a canonical standard
+recommendation:
+  status: neutral
+  confidence: low
+  note: Useful experiment, but not enough evidence for strong recommendation.
+related_gaps:
+- id: demo-hijri-standardization-gap
+  relation: partially_addresses
+evidence:
+- type: repository
+  url: https://example.invalid/hilal-sdk/repo
+  supports:
+  - technologies
+  - license
+discovered_via:
+- demo-islamic-tech-index
+added_at: '2026-10-29'
+last_reviewed_at: '2026-10-29'

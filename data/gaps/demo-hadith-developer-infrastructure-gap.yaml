@@ -1,0 +1,37 @@
+id: demo-hadith-developer-infrastructure-gap
+title: Hadith developer infrastructure is fragmented
+demo: true
+data_quality: synthetic
+status: candidate
+determination: editorial
+confidence: low
+domains:
+- hadith
+- research
+audience:
+- developer
+- researcher
+affected_platforms:
+- web
+- server
+problem: Developers may find content, but reusable APIs, citation metadata and consistent integration surfaces can
+  be fragmented.
+existing_solutions:
+- demo-hadith-api
+what_is_missing:
+- Consistent citation schema
+- Stable public APIs
+- Interoperable identifiers
+impact: high
+difficulty: high
+volunteer_fit: medium
+summary: Synthetic gap for testing developer-oriented gap pages and uncertainty states.
+reasoning:
+- Content availability and developer usability are different dimensions.
+evidence:
+- type: other
+  url: https://example.invalid/gap-evidence/hadith-infra
+related_resources:
+- demo-hadith-api
+added_at: '2026-10-29'
+last_reviewed_at: '2026-10-29'

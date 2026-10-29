@@ -1,0 +1,48 @@
+id: alfanous
+name: Alfanous
+resource_type: library
+roles:
+- developer_facing
+- infrastructure
+- data_access
+audience:
+- developer
+- contributor
+domains:
+- quran
+- search
+- arabic_language
+- natural_language_processing
+platforms:
+- server
+- self_hosted
+url: https://github.com/Alfanous-team/alfanous
+repository: https://github.com/Alfanous-team/alfanous
+open_source: true
+license: LGPL-3.0
+technologies:
+- python
+review_level: reviewed
+status:
+  value: active
+  confidence: high
+summary: Quranic Arabic search engine usable as a Python library or REST web service,
+  with exact, fuzzy and linguistic search features.
+assessment:
+  strengths:
+  - Advanced Arabic/Quran search capabilities
+  - Library and web-service usage modes
+  - Rich linguistic metadata and query features
+  weaknesses: []
+evidence:
+- type: repository
+  url: https://github.com/Alfanous-team/alfanous
+  supports:
+  - license
+  - language
+  - features
+  - activity
+added_at: 2026-10-29
+last_reviewed_at: 2026-10-29
+discovered_via:
+- mmmoussa-islamic-developer-resources

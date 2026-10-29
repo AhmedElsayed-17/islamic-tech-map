@@ -1,0 +1,46 @@
+id: demo-zakat-calculator
+name: Zakat Simple
+demo: true
+data_quality: synthetic
+resource_type: web_app
+roles:
+- consumer_facing
+- knowledge
+audience:
+- general_user
+- arabic_speaking_user
+domains:
+- zakat
+- islamic_finance
+platforms:
+- web
+url: https://example.invalid/zakat-simple
+languages:
+- en
+- ar
+pricing:
+  model: free
+access:
+  account_required: false
+  self_hostable: false
+openness:
+- closed_source
+review_level: indexed
+status:
+  value: active
+  confidence: medium
+summary:
+  en: Synthetic end-user zakat calculator used to test lightweight indexed entries.
+  ar: حاسبة زكاة تجريبية لاختبار الموارد ذات المراجعة الخفيفة.
+capabilities:
+- zakat_calculation
+evidence:
+- type: official
+  url: https://example.invalid/zakat-simple
+  supports:
+  - identity
+  - purpose
+discovered_via:
+- demo-islamic-tech-index
+added_at: '2026-10-29'
+last_reviewed_at: '2026-10-29'

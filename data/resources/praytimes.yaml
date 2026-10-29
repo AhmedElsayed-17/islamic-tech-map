@@ -1,0 +1,33 @@
+id: praytimes
+name: PrayTimes
+resource_type: library
+roles:
+- developer_facing
+- infrastructure
+audience:
+- developer
+domains:
+- prayer
+platforms:
+- web
+url: https://praytimes.org/docs/code
+open_source: unknown
+technologies:
+- javascript
+review_level: indexed
+status:
+  value: active
+  confidence: high
+summary: JavaScript prayer-time calculation library with public code, documentation
+  and a current v3 release listed in 2025.
+evidence:
+- type: official
+  url: https://praytimes.org/docs/code
+  supports:
+  - language
+  - releases
+  - documentation
+added_at: 2026-10-29
+last_reviewed_at: 2026-10-29
+discovered_via:
+- mmmoussa-islamic-developer-resources

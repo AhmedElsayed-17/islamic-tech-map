@@ -1,0 +1,26 @@
+id: demo-community-tools-list
+name: Demo Community Tools List
+demo: true
+data_quality: synthetic
+type: website_list
+url: https://example.invalid/community-tools
+purpose: discovery_source
+processing:
+  status: partially_processed
+  first_checked_at: '2026-10-29'
+  last_checked_at: '2026-10-29'
+  content_extracted: false
+  discovered_items: 60
+  accepted_items: 11
+  deferred_items: 13
+  dead_items: 2
+  duplicate_items: 6
+  sections_processed:
+  - mosques
+  - search
+  sections_pending:
+  - education
+  - charity
+  - community
+notes:
+- Synthetic source demonstrating partial processing and section-level tracking.

@@ -1,0 +1,41 @@
+id: demo-islamic-platform-integration-gap
+title: Useful Islamic web platforms often lack reusable integration surfaces
+demo: true
+data_quality: synthetic
+status: observed
+determination: editorial
+confidence: medium
+domains:
+- community
+- search
+- data
+audience:
+- developer
+- organization
+affected_platforms:
+- web
+- server
+problem: A service can be useful to end users while still being difficult for developers to integrate into new applications.
+existing_solutions:
+- demo-mosque-platform
+- demo-fatwa-search
+what_is_missing:
+- Public APIs
+- Structured export
+- Stable identifiers
+- Documented embedding/integration options
+impact: high
+difficulty: medium
+volunteer_fit: medium
+summary: Synthetic gap demonstrating why consumer websites also matter to developer-oriented ecosystem analysis.
+reasoning:
+- The resource itself may solve a user problem while exposing a separate developer gap.
+evidence:
+- type: other
+  url: https://example.invalid/gap-evidence/integration
+related_resources:
+- demo-mosque-platform
+- demo-fatwa-search
+- demo-quran-desktop
+added_at: '2026-10-29'
+last_reviewed_at: '2026-10-29'

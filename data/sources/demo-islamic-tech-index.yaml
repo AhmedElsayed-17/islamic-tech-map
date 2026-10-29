@@ -1,0 +1,19 @@
+id: demo-islamic-tech-index
+name: Demo Islamic Tech Index
+demo: true
+data_quality: synthetic
+type: aggregated_repository
+url: https://example.invalid/demo-index
+purpose: discovery_source
+processing:
+  status: processed
+  first_checked_at: '2026-10-29'
+  last_checked_at: '2026-10-29'
+  content_extracted: true
+  discovered_items: 24
+  accepted_items: 8
+  deferred_items: 5
+  dead_items: 4
+  duplicate_items: 7
+notes:
+- Synthetic source demonstrating a fully processed aggregator.

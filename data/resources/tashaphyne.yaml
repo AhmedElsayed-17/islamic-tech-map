@@ -1,0 +1,44 @@
+id: tashaphyne
+name: Tashaphyne
+resource_type: library
+roles:
+- developer_facing
+- infrastructure
+audience:
+- developer
+- contributor
+domains:
+- arabic_language
+- natural_language_processing
+platforms:
+- server
+- self_hosted
+url: https://github.com/linuxscout/tashaphyne
+repository: https://github.com/linuxscout/tashaphyne
+open_source: true
+license: GPL-3.0
+technologies:
+- python
+review_level: reviewed
+status:
+  value: maintained
+  confidence: medium
+summary: Arabic light stemmer and segmenter for Python, supporting prefix/suffix stripping
+  and possible root/stem extraction.
+assessment:
+  strengths:
+  - Arabic-specific NLP functionality
+  - Open-source Python implementation
+  - Supports custom affix lists
+  weaknesses: []
+evidence:
+- type: repository
+  url: https://github.com/linuxscout/tashaphyne
+  supports:
+  - purpose
+  - language
+  - license
+added_at: 2026-10-29
+last_reviewed_at: 2026-10-29
+discovered_via:
+- mmmoussa-islamic-developer-resources

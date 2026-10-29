@@ -1,0 +1,38 @@
+id: demo-desktop-quran-gap
+title: Mature Quran desktop applications appear underrepresented
+demo: true
+data_quality: synthetic
+status: observed
+determination: editorial
+confidence: medium
+domains:
+- quran
+audience:
+- general_user
+affected_platforms:
+- windows
+- macos
+- linux
+problem: Quran products are often concentrated on mobile and web, while mature desktop-first experiences appear
+  thinner.
+existing_solutions:
+- demo-quran-desktop
+what_is_missing:
+- More mature desktop alternatives
+- Better Linux coverage
+- Strong offline workflows
+impact: high
+difficulty: medium
+volunteer_fit: high
+summary: Synthetic gap demonstrating a platform-coverage imbalance and its connection to existing resources.
+reasoning:
+- Platform distribution can matter even when the overall topic has many products.
+- A crowded mobile category does not imply equivalent desktop coverage.
+evidence:
+- type: other
+  url: https://example.invalid/gap-evidence/desktop-quran
+  note: Synthetic evidence for UX testing only.
+related_resources:
+- demo-quran-desktop
+added_at: '2026-10-29'
+last_reviewed_at: '2026-10-29'

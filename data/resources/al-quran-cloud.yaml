@@ -1,0 +1,43 @@
+id: al-quran-cloud
+name: Al Quran Cloud
+resource_type: api
+roles:
+- developer_facing
+- infrastructure
+- data_access
+- integration
+audience:
+- developer
+- end_user
+domains:
+- quran
+platforms:
+- web
+- server
+url: https://alquran.cloud/api
+open_source: unknown
+access_model:
+- free
+review_level: reviewed
+status:
+  value: active
+  confidence: high
+summary: Quran web platform with an open REST API, audio/image CDN and client-library
+  references.
+assessment:
+  strengths:
+  - Clear REST API documentation
+  - Provides Quran, search, audio and image access
+  - Explicit developer-facing surface
+  weaknesses: []
+evidence:
+- type: official
+  url: https://alquran.cloud/api
+  supports:
+  - api
+  - features
+  - developer_support
+added_at: 2026-10-29
+last_reviewed_at: 2026-10-29
+discovered_via:
+- mmmoussa-islamic-developer-resources

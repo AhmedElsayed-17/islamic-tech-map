@@ -1,0 +1,19 @@
+id: demo-arabic-open-source-list
+name: Demo Arabic Open Source List
+demo: true
+data_quality: synthetic
+type: aggregated_repository
+url: https://example.invalid/arabic-list
+purpose: discovery_source
+processing:
+  status: needs_recheck
+  first_checked_at: '2026-05-02'
+  last_checked_at: '2026-05-02'
+  content_extracted: true
+  discovered_items: 33
+  accepted_items: 10
+  deferred_items: 9
+  dead_items: 8
+  duplicate_items: 6
+notes:
+- Synthetic source used to test stale-source and recheck states.

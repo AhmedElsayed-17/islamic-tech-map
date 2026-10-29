@@ -1,0 +1,73 @@
+id: demo-mosque-platform
+name: Masjid Hub
+demo: true
+data_quality: synthetic
+resource_type: platform
+roles:
+- consumer_facing
+- administration
+- community
+audience:
+- general_user
+- mosque_admin
+- organization
+domains:
+- mosques
+- community
+- education
+platforms:
+- web
+- android
+- ios
+url: https://example.invalid/masjid-hub
+languages:
+- en
+- ar
+- fr
+pricing:
+  model: subscription
+access:
+  account_required: true
+  self_hostable: false
+openness:
+- commercial
+- closed_source
+review_level: reviewed
+status:
+  value: active
+  confidence: high
+summary:
+  en: Synthetic mosque-management platform covering events, announcements and member communication.
+  ar: منصة تجريبية لإدارة المسجد والإعلانات والفعاليات والتواصل.
+capabilities:
+- community
+- content_delivery
+- notifications
+assessment:
+  strengths:
+  - Broad mosque workflow coverage
+  - Multilingual UI
+  weaknesses:
+  - Limited export
+  - No public API
+  best_for:
+  - Medium-size mosques wanting one hosted platform
+  limitations:
+  - Data portability is limited
+recommendation:
+  status: recommended_with_caveats
+  confidence: medium
+  note: Good operational coverage; integration remains limited.
+related_gaps:
+- id: demo-islamic-platform-integration-gap
+  relation: demonstrates
+evidence:
+- type: official
+  url: https://example.invalid/masjid-hub
+  supports:
+  - features
+  - pricing
+discovered_via:
+- demo-community-tools-list
+added_at: '2026-10-29'
+last_reviewed_at: '2026-10-29'

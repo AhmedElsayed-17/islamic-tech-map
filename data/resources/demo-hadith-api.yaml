@@ -1,0 +1,80 @@
+id: demo-hadith-api
+name: Isnad API
+demo: true
+data_quality: synthetic
+resource_type: api
+roles:
+- developer_facing
+- infrastructure
+- data_access
+- integration
+audience:
+- developer
+- researcher
+domains:
+- hadith
+- research
+platforms:
+- web
+- server
+url: https://example.invalid/isnad-api
+repository: https://example.invalid/isnad-api/repo
+technologies:
+- typescript
+- rest
+languages:
+- en
+- ar
+pricing:
+  model: freemium
+access:
+  account_required: true
+  self_hostable: true
+openness:
+- open_source
+- open_api
+- self_hostable
+license: Apache-2.0
+review_level: reviewed
+status:
+  value: beta
+  confidence: high
+summary:
+  en: Synthetic Hadith API with citation metadata and structured search.
+  ar: واجهة API تجريبية للأحاديث مع بيانات إحالة وبحث منظم.
+capabilities:
+- hadith_content
+- islamic_search
+- citations
+- public_api
+- json
+- export
+assessment:
+  strengths:
+  - Developer-friendly docs
+  - Structured source citations
+  weaknesses:
+  - Beta stability
+  - Rate limits on the free tier
+  best_for:
+  - Prototype integrations and research tools
+  limitations:
+  - Not yet suitable for high-availability production use
+recommendation:
+  status: neutral
+  confidence: medium
+  note: Promising but still beta.
+related_gaps:
+- id: demo-hadith-developer-infrastructure-gap
+  relation: partially_addresses
+evidence:
+- type: documentation
+  url: https://example.invalid/isnad-api/docs
+  supports:
+  - api
+  - features
+  - limits
+discovered_via:
+- demo-islamic-tech-index
+added_at: '2026-10-29'
+last_reviewed_at: '2026-10-29'

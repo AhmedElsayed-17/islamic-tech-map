@@ -1,0 +1,17 @@
+id: dummy-aggregator
+name: Dummy Aggregated Repository
+type: aggregated_repository
+url: https://example.invalid
+purpose: discovery_source
+processing:
+  status: unprocessed
+  first_checked_at: null
+  last_checked_at: null
+  content_extracted: false
+  discovered_items: null
+  accepted_items: null
+  deferred_items: null
+  dead_items: null
+  duplicate_items: null
+notes:
+  - Aggregators belong in the source registry, not the resource catalog.

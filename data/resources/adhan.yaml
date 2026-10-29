@@ -1,0 +1,44 @@
+id: adhan-batoulapps
+name: Adhan
+resource_type: library
+roles:
+- developer_facing
+- infrastructure
+audience:
+- developer
+- contributor
+domains:
+- prayer
+platforms:
+- cross_platform
+url: https://github.com/batoulapps/Adhan
+repository: https://github.com/batoulapps/Adhan
+open_source: true
+license: MIT
+technologies:
+- swift
+- javascript
+- kotlin
+review_level: reviewed
+status:
+  value: maintained
+  confidence: high
+summary: High-precision prayer-time calculation library with maintained implementations
+  across multiple languages and shared test data.
+assessment:
+  strengths:
+  - Multiple official language implementations
+  - Shared test data across implementations
+  - MIT licensed
+  weaknesses: []
+evidence:
+- type: repository
+  url: https://github.com/batoulapps/Adhan
+  supports:
+  - implementations
+  - license
+  - purpose
+added_at: 2026-10-29
+last_reviewed_at: 2026-10-29
+discovered_via:
+- mmmoussa-islamic-developer-resources

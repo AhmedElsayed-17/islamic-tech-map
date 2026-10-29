@@ -1,0 +1,53 @@
+id: demo-legacy-prayer-widget
+name: Legacy Prayer Widget
+demo: true
+data_quality: synthetic
+resource_type: plugin
+roles:
+- consumer_facing
+audience:
+- general_user
+domains:
+- prayer
+platforms:
+- browser_extension
+url: https://example.invalid/legacy-prayer-widget
+languages:
+- en
+pricing:
+  model: free
+access:
+  account_required: false
+  self_hostable: false
+openness:
+- source_available
+review_level: reviewed
+status:
+  value: unmaintained
+  confidence: high
+summary:
+  en: Synthetic unmaintained browser widget used to test negative and legacy states.
+assessment:
+  strengths:
+  - Simple feature set
+  weaknesses:
+  - Unmaintained
+  - Old browser APIs
+  best_for:
+  - Historical reference only
+  limitations:
+  - Should not be recommended for new deployments
+recommendation:
+  status: not_recommended
+  confidence: high
+  note: Kept for archival completeness, not current adoption.
+evidence:
+- type: repository
+  url: https://example.invalid/legacy-prayer-widget/repo
+  supports:
+  - activity
+  - status
+discovered_via:
+- demo-islamic-tech-index
+added_at: '2026-10-29'
+last_reviewed_at: '2026-10-29'

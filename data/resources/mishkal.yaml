@@ -1,0 +1,39 @@
+id: mishkal
+name: Mishkal
+resource_type: developer_tool
+roles:
+- developer_facing
+- knowledge
+audience:
+- developer
+- contributor
+- end_user
+domains:
+- arabic_language
+- natural_language_processing
+platforms:
+- web
+- self_hosted
+url: https://github.com/linuxscout/mishkal
+repository: https://github.com/linuxscout/mishkal
+open_source: true
+license: GPL-3.0
+technologies:
+- python
+review_level: indexed
+status:
+  value: maintained
+  confidence: medium
+summary: Arabic text vocalization software with Python code and web-oriented interfaces.
+evidence:
+- type: repository
+  url: https://github.com/linuxscout/mishkal
+  supports:
+  - purpose
+  - language
+  - license
+  - interfaces
+added_at: 2026-10-29
+last_reviewed_at: 2026-10-29
+discovered_via:
+- mmmoussa-islamic-developer-resources

@@ -1,0 +1,85 @@
+id: dummy-maximal-resource
+name: Dummy Maximal Resource
+resource_type: application
+roles:
+- consumer_facing
+- developer_facing
+audience:
+- general_user
+- arabic_speaking_user
+- developer
+domains:
+- quran
+- search
+platforms:
+- web
+- android
+- windows
+url: https://example.invalid
+repository: https://example.invalid/repo
+organization_id: dummy-organization
+languages:
+- ar
+- en
+technologies:
+- typescript
+- react
+access_model:
+- free
+- no_account_required
+openness:
+- open_source
+- open_api
+license: DUMMY-LICENSE
+status:
+  value: active
+  confidence: low
+review_level: reviewed
+summary: Dummy record exercising most of the agreed schema. Delete or replace after
+  testing.
+assessment:
+  strengths:
+  - Dummy strength
+  weaknesses:
+  - Dummy weakness
+  best_for:
+  - Dummy audience/use case
+  limitations:
+  - Dummy limitation
+recommendation:
+  status: insufficient_evidence
+  confidence: low
+  note: Dummy recommendation.
+related_gaps:
+- id: dummy-desktop-gap
+  relation: partially_addresses
+evidence:
+- type: official
+  url: https://example.invalid
+  supports:
+  - identity
+  - features
+  note: Dummy evidence.
+- type: community_feedback
+  url: https://example.invalid/feedback
+  supports:
+  - usability
+  note: Dummy feedback source.
+notes:
+- Dummy data only.
+added_at: '2026-10-29'
+last_reviewed_at: '2026-10-29'
+_future:
+  claims:
+  - text: Example factual claim.
+    type: fact
+    evidence_refs:
+    - official-1
+  - text: Example editorial judgment.
+    type: editorial_judgment
+  quality_dimensions:
+    documentation: not_scored
+    arabic_support: not_scored
+  capabilities:
+  - arabic_ui
+  - public_api

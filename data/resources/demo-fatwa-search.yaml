@@ -1,0 +1,70 @@
+id: demo-fatwa-search
+name: Masail Search
+demo: true
+data_quality: synthetic
+resource_type: website
+roles:
+- consumer_facing
+- knowledge
+- reference
+- discovery
+audience:
+- general_user
+- student
+- researcher
+domains:
+- fiqh
+- fatwa
+- search
+platforms:
+- web
+url: https://example.invalid/masail
+languages:
+- ar
+- en
+pricing:
+  model: free
+access:
+  account_required: false
+  self_hostable: false
+openness:
+- closed_source
+review_level: reviewed
+status:
+  value: active
+  confidence: high
+summary:
+  en: Synthetic searchable fatwa/reference website demonstrating why useful websites belong in the archive.
+  ar: موقع بحث تجريبي يوضح سبب إدراج المواقع المفيدة ضمن الأرشيف.
+capabilities:
+- islamic_search
+- citations
+- scholarly_references
+assessment:
+  strengths:
+  - Strong discovery UX
+  - Clear citations
+  weaknesses:
+  - No public API
+  - No structured export
+  best_for:
+  - Users researching common questions
+  limitations:
+  - Limited reuse by external applications
+recommendation:
+  status: recommended
+  confidence: medium
+  note: Strong consumer utility in this synthetic example.
+related_gaps:
+- id: demo-islamic-platform-integration-gap
+  relation: demonstrates
+evidence:
+- type: official
+  url: https://example.invalid/masail
+  supports:
+  - features
+  - citations
+discovered_via:
+- demo-community-tools-list
+added_at: '2026-10-29'
+last_reviewed_at: '2026-10-29'
